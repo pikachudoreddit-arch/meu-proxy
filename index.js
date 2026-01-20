@@ -2,7 +2,7 @@ const express = require('express');
 const { createProxyMiddleware } = require('http-proxy-middleware');
 const app = express();
 
-const DESTINO = 'http://fyfyz-164-163-214-220.a.free.pinggy.link'; 
+const DESTINO = 'http://wofka-164-163-214-220.a.free.pinggy.link'; 
 
 app.use('/', createProxyMiddleware({ 
     target: DESTINO, 
